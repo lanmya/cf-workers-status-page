@@ -27,7 +27,7 @@ monitors:
   - id: 2
     name: LanMYa-Blog
     description: 'Built for anything connected to the Internet.'
-    url: 'https://blog.lanmya.xyz'
+    url: 'https://blog.lanmya.org'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
