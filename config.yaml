@@ -17,7 +17,6 @@ settings:
 monitors:
   - id: 1 # unique identifier
     name: LanMYa站点导航
-    description: 'You write code. They handle the rest.' # default=empty
     url: 'https://lanmya.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -26,7 +25,6 @@ monitors:
 
   - id: 2
     name: LanMYa-Blog
-    description: 'Built for anything connected to the Internet.'
     url: 'https://blog.lanmya.org'
     method: GET
     expectStatus: 200
